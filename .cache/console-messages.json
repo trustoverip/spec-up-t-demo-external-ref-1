@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "generatedAt": "2026-01-08T06:30:26.324Z",
+    "totalMessages": 14,
+    "operations": [
+      "render"
+    ],
+    "messagesByType": {
+      "success": 7,
+      "info": 7
+    }
+  },
+  "messages": [
+    {
+      "timestamp": "2026-01-08T06:30:25.268Z",
+      "type": "success",
+      "message": "Initialization complete.",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.268Z",
+      "type": "info",
+      "message": "Checking spec #1",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.269Z",
+      "type": "success",
+      "message": "All keys are present. No errors found. Continuing…",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.270Z",
+      "type": "success",
+      "message": "Term index created with 11 terms. Output: .cache/term-index.json",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.272Z",
+      "type": "info",
+      "message": "Directory created:",
+      "operation": "render",
+      "additionalData": [
+        "docs/versions"
+      ]
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.997Z",
+      "type": "info",
+      "message": "Directory already exists: ./docs/",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:25.997Z",
+      "type": "success",
+      "message": "Ensured directory is ready: ./docs/",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.002Z",
+      "type": "info",
+      "message": "Rendering: Spec-Up-T Demo External Ref 1",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.017Z",
+      "type": "success",
+      "message": "Index file created at docs/versions/index.html",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.018Z",
+      "type": "success",
+      "message": "Merged xref terms: 0 matched, 0 skipped (not referenced). Total entries: 0",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.310Z",
+      "type": "info",
+      "message": "GitHub repo info: trustoverip,spec-up-t-demo-external-ref-1,main",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.312Z",
+      "type": "info",
+      "message": "Attempting to write to:",
+      "operation": "render",
+      "additionalData": [
+        "docs/index.html"
+      ]
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.323Z",
+      "type": "success",
+      "message": "Successfully wrote docs/index.html",
+      "operation": "render"
+    },
+    {
+      "timestamp": "2026-01-08T06:30:26.323Z",
+      "type": "info",
+      "message": "Render completed for:",
+      "operation": "render",
+      "additionalData": [
+        "./docs/"
+      ]
+    }
+  ]
+}
