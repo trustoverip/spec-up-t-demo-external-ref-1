@@ -1,87 +1,89 @@
 {
   "metadata": {
-    "generatedAt": "2026-01-08T06:30:26.324Z",
+    "generatedAt": "2026-01-08T07:27:06.802Z",
     "totalMessages": 14,
     "operations": [
+      "collectExternalReferences",
       "render"
     ],
     "messagesByType": {
-      "success": 7,
-      "info": 7
+      "warn": 1,
+      "info": 7,
+      "success": 6
     }
   },
   "messages": [
     {
-      "timestamp": "2026-01-08T06:30:25.268Z",
-      "type": "success",
-      "message": "Initialization complete.",
-      "operation": "render"
+      "timestamp": "2026-01-08T07:27:05.858Z",
+      "type": "warn",
+      "message": "No GitHub Personal Access Token (PAT) found. Running without authentication",
+      "operation": "collectExternalReferences",
+      "additionalData": [
+        "[object Object]"
+      ]
     },
     {
-      "timestamp": "2026-01-08T06:30:25.268Z",
+      "timestamp": "2026-01-08T07:27:05.859Z",
+      "type": "info",
+      "message": "The external_specs array in specs.json is empty. Add external repositories to collect external references.",
+      "operation": "collectExternalReferences"
+    },
+    {
+      "timestamp": "2026-01-08T07:27:05.872Z",
       "type": "info",
       "message": "Checking spec #1",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:25.269Z",
+      "timestamp": "2026-01-08T07:27:05.872Z",
       "type": "success",
       "message": "All keys are present. No errors found. Continuing…",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:25.270Z",
+      "timestamp": "2026-01-08T07:27:05.873Z",
       "type": "success",
       "message": "Term index created with 11 terms. Output: .cache/term-index.json",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:25.272Z",
-      "type": "info",
-      "message": "Directory created:",
-      "operation": "render",
-      "additionalData": [
-        "docs/versions"
-      ]
-    },
-    {
-      "timestamp": "2026-01-08T06:30:25.997Z",
+      "timestamp": "2026-01-08T07:27:06.448Z",
       "type": "info",
       "message": "Directory already exists: ./docs/",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:25.997Z",
+      "timestamp": "2026-01-08T07:27:06.448Z",
       "type": "success",
       "message": "Ensured directory is ready: ./docs/",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.002Z",
+      "timestamp": "2026-01-08T07:27:06.453Z",
       "type": "info",
       "message": "Rendering: Spec-Up-T Demo External Ref 1",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.017Z",
+      "timestamp": "2026-01-08T07:27:06.498Z",
       "type": "success",
       "message": "Index file created at docs/versions/index.html",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.018Z",
+      "timestamp": "2026-01-08T07:27:06.499Z",
       "type": "success",
       "message": "Merged xref terms: 0 matched, 0 skipped (not referenced). Total entries: 0",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.310Z",
+      "timestamp": "2026-01-08T07:27:06.790Z",
       "type": "info",
       "message": "GitHub repo info: trustoverip,spec-up-t-demo-external-ref-1,main",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.312Z",
+      "timestamp": "2026-01-08T07:27:06.791Z",
       "type": "info",
       "message": "Attempting to write to:",
       "operation": "render",
@@ -90,13 +92,13 @@
       ]
     },
     {
-      "timestamp": "2026-01-08T06:30:26.323Z",
+      "timestamp": "2026-01-08T07:27:06.802Z",
       "type": "success",
       "message": "Successfully wrote docs/index.html",
       "operation": "render"
     },
     {
-      "timestamp": "2026-01-08T06:30:26.323Z",
+      "timestamp": "2026-01-08T07:27:06.802Z",
       "type": "info",
       "message": "Render completed for:",
       "operation": "render",
