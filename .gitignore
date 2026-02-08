@@ -9,5 +9,3 @@ coverage
 build
 .history/
 /.cache/
-node_modules
-.history
